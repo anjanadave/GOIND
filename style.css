@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f1f2f6;
+    width: 100vw;
+    height: 7vh;
+}
+
+.logo {
+    font-size: 30px;
+    color: #0677A1;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.list ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list ul li {
+    list-style: none;
+    padding-left: 15px;
+    font-weight: 500;
+    color: gray;
+
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+button {
+    background: #f1f2f6;
+    border: none;
+    font-size: 15px;
+    color: #0677A1;
+    margin-right: 20px;
+}
+
+.section {
+    width: 100vw;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    word-spacing: 5px;
+}
+
+
+.search-bar {
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 200px;
+}
+
+.search-bar input {
+    width: 20vw;
+    height: 7vh;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    padding-left: 20px;
+    font-size: 15px;
+    position: relative;
+}
+
+.btn {
+    width: 10vw;
+    height: 7vh;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    padding-right: 10px;
+    font-size: 15px;
+    background: #0677A1;
+    color: white;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-bar p {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+   
+}
+
+.btnn {
+    background: #0677A1;
+    color: white;
+    margin-left: 40%;
+    margin-top: 5%;
+    padding: 15px 40px 15px 40px;
+}
+
+.services {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 6%;
+}
+
+.ser-text {
+    width: 40vw;
+}
+
+.services h1 {
+    color: black;
+    font-size: 2rem;
+    margin-right: 62%;
+}
+
+.services p {
+    color: black;
+    padding-top: 30px;
+}
+
+.ser-text button {
+    color: white;
+    background-color:#0677A1 ;
+    padding: 12px 27px;
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+.ser-img {
+    width: 40vw;
+}
+
+.ser-img img {
+    width: 100%;
+    height: 50vh;
+}
+
+.job{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2%; 
+}
+
+.job h1{
+    color: black;
+    font-size: 2rem;
+    margin-right: 62%;
+}
+
+.job p{
+    color: black;
+    padding-top: 30px;
+}
+
+.corporate{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+.corporate h1 {
+    color: black;
+    font-size: 2rem;
+    margin-right: 62%;
+}
+
+.corporate p {
+    color: black;
+    padding-top: 30px;
+}
+
+.goverment{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2%; 
+}
+
+.goverment h1{
+    color: black;
+    font-size: 2rem;
+    margin-right: 62%;
+}
+
+.goverment p{
+    color: black;
+    padding-top: 30px;
+}
+
+.footer{
+    height: 35vh;
+    width: 100vw;
+    background: #0677A1;
+    margin-top: 20px;
+}
+
+h2{
+    color: white;
+    padding-top: 30px;
+    padding-left: 10%;
+}
+
+.footer p{
+    color: white;
+    padding-top: 30px;
+    padding-left: 10%;
+}
+
+.main{
+    width: 80%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.main input{
+    width: 65%;
+    height: 6vh;
+    border-radius: 18px;
+    position: relative;
+    margin-left: 12%;
+    border: none;
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+.main .foot-btn{
+   width: 15%;
+   height: 5vh;
+   background: #0677A1;
+   color: white;
+   border-radius: 15px;
+   position: absolute;
+   margin-left: 47%;
+   margin-top: 4px;
+   padding: 10px;
+   border: none;
+   font-size: 1rem;
+
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
